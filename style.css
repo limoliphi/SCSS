@@ -1,0 +1,35 @@
+@import "rings.css";
+
+
+nav.orange {
+    background-color: #FF7624;
+}
+
+li.active a {
+    border-bottom: 4px solid white;
+    padding-bottom: 0;
+}
+
+li.nav-item a.nav-link {
+    color: white !important;
+}
+
+footer {
+    display: flex;
+    background-color: #FF7624;
+    padding: 6em;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: white;
+}

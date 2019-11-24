@@ -1,0 +1,88 @@
+.main_title, .find, .six_rings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.main > h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.orange-ring {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    border: 0em solid #FF7624;
+    background: transparent;
+    box-shadow: inset 5px 5px 5px #f05a00, 5px 5px 5px #f05a00;
+}
+
+.gold-ring {
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    border: 1em solid #FFD700;
+    background: transparent;
+    box-shadow: inset 0.5em 0.5em 0.5em #ccac00, 0.5em 0.5em 0.5em #ccac00;
+}
+
+.dark-ring1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid black;
+    background: transparent;
+    box-shadow: inset 1px 1px 1px black, 1px 1px 1px black;
+    margin-left: -36px;
+}
+
+.dark-ring2 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background: transparent;
+    box-shadow: inset 1px 1px 1px black, 1px 1px 1px black;
+    margin-left: -45px;
+}
+
+.dark-ring3 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 6px solid black;
+    background: transparent;
+    box-shadow: inset 1px 1px 1px black, 1px 1px 1px black;
+    margin-left: -54px;
+}
+
+.dark-ring4 {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    border: 7px solid black;
+    background: transparent;
+    box-shadow: inset 2px 2px 2px black, 2px 2px 2px black;
+    margin-left: -63px;
+}
+
+.dark-ring5 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 8px solid black;
+    background: transparent;
+    box-shadow: inset 2px 2px 2px black, 2px 2px 2px black;
+    margin-left: -72px;
+}
+
+.dark-ring6 {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: 9px solid black;
+    background: transparent;
+    box-shadow: inset 2px 2px 2px black, 2px 2px 2px black;
+    margin-left: -81px;
+}

@@ -1,0 +1,28 @@
+@mixin ring($size, $color) {
+  $thickness: round($size/15);
+  $shadow-color: darken($color, 10%);
+  $offset: ceil($size/100);
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  border: $thickness solid $color;
+  background: transparent;
+  box-shadow: inset $offset $offset $offset $shadow-color,
+  $offset $offset $offset $shadow-color;
+}
+
+.orange-ring {
+  @include ring(5em,#FF7624);
+}
+
+.gold-ring {
+  @include ring(15em, #FFD700);
+}
+
+@for $i from 1 through 6 {
+  .dark-ring#{$i} {
+    $size: 45px + ($i*15);
+    @include ring($size, black);
+    margin-left: -1*($size - ceil($size/2.5));
+  }
+}
