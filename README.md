@@ -1,6 +1,6 @@
-# SCSS
+# SCSS Wild Code School
 
-#In order to add more style to the site findThePrecious, Sauron wants you to add some rings, big, small, and with many different colors!
+In order to add more style to the site findThePrecious, Sauron wants you to add some rings, big, small, and with many different colors!
 
 Using SCSS, you'll need to create a mixin called ring that draws a ring.
 
